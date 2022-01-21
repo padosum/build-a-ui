@@ -1,0 +1,204 @@
+[
+    {
+      "date": "29",
+      "complete": false
+    },
+    {
+      "date": "30",
+      "complete": false
+    },
+    {
+      "date": "1",
+      "complete": true,
+      "label": "📕 Grid systems",
+      "color": "#FF4A1B"
+    },
+    {
+      "date": "2",
+      "complete": false,
+      "label": "✍️ Signup form",
+      "color": "purple"
+    },
+    {
+      "date": "3",
+      "complete": false,
+      "label": "🎲 Frontend-opoly",
+      "color": "#71967b"
+    },
+    {
+      "date": "4",
+      "complete": false,
+      "label": "🗓 Weekly schedule",
+      "color": "#221d31"
+    },
+    {
+      "date": "5",
+      "complete": false,
+      "label": "📄 Van de Graaf",
+      "color": "#164666"
+    },
+    {
+      "date": "6",
+      "complete": false,
+      "label": "📰 Broadsheet",
+      "color": "#000"
+    },
+    {
+      "date": "7",
+      "complete": false,
+      "label": "🖋 Blog composer",
+      "color": "#559DE6"
+    },
+    {
+      "date": "8",
+      "complete": false,
+      "label": "✨ Mixin collage",
+      "color": "#583ca0"
+    },
+    {
+      "date": "9",
+      "complete": false,
+      "label": "📱 Milligram feed",
+      "color": "#14546f"
+    },
+    {
+      "date": "10",
+      "complete": false,
+      "label": "🖥 Dashboard",
+      "color": "#DA045C"
+    },
+    {
+      "date": "11",
+      "complete": false,
+      "label": "🎬 Review cards",
+      "color": "#DB8400"
+    },
+    {
+      "date": "12",
+      "complete": false,
+      "label": "📋 Todo board",
+      "color": "#488600"
+    },
+    {
+      "date": "13",
+      "complete": false,
+      "label": "☕️ Brew guide",
+      "color": "#6d3f28"
+    },
+    {
+      "date": "14",
+      "complete": false,
+      "label": "✈️ Seat picker",
+      "color": "#FF930F"
+    },
+    {
+      "date": "15",
+      "complete": false,
+      "label": "🎟 Boarding pass",
+      "color": "#223146"
+    },
+    {
+      "date": "16",
+      "complete": false,
+      "label": "📈 Brew print",
+      "color": "#3473B1"
+    },
+    {
+      "date": "17",
+      "complete": false,
+      "label": "📃 Magazine layout",
+      "color": "#333"
+    },
+    {
+      "date": "18",
+      "complete": false,
+      "label": "🗳 Senate ballot",
+      "color": "#506827"
+    },
+    {
+      "date": "19",
+      "complete": false,
+      "label": "📱 Itinerary",
+      "color": "#F26118"
+    },
+    {
+      "date": "20",
+      "complete": false,
+      "label": "📷 Photoessay",
+      "color": "#000"
+    },
+    {
+      "date": "21",
+      "complete": false,
+      "label": "🖥 “Uses”",
+      "color": "#1c334a"
+    },
+    {
+      "date": "22",
+      "complete": false,
+      "label": "🔬 Web elements",
+      "color": "#5a008a"
+    },
+    {
+      "date": "23",
+      "complete": false,
+      "label": "⚙️ Responsive form",
+      "color": "#005CDD"
+    },
+    {
+      "date": "24",
+      "complete": false,
+      "label": "🌦 Wearthere",
+      "color": "#004D99"
+    },
+    {
+      "date": "25",
+      "complete": false,
+      "label": "📨 Email client",
+      "color": "#6177c7"
+    },
+    {
+      "date": "26",
+      "complete": false,
+      "label": "🗒 Blank canvas anxiety",
+      "color": "#FC9801"
+    },
+    {
+      "date": "27",
+      "complete": false,
+      "label": "⌨️ Butterfly keys",
+      "color": "#333748"
+    },
+    {
+      "date": "28",
+      "complete": false,
+      "label": "🛒 Ecommerce",
+      "color": "#940783"
+    },
+    {
+      "date": "29",
+      "complete": false,
+      "label": "🗺 Melbourne",
+      "color": "#ffa500"
+    },
+    {
+      "date": "30",
+      "complete": false,
+      "label": "📝 Journal app",
+      "color": "#356882"
+    },
+    {
+      "date": "31",
+      "complete": false,
+      "label": "❤️ Thanks",
+      "color": "red"
+    },
+    {
+      "date": "1",
+      "complete": false
+    },
+    {
+      "date": "2",
+      "complete": false
+    }
+  ]
