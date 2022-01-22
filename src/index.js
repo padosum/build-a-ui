@@ -1,5 +1,5 @@
 import App from "./app";
-import Calendar from "./components/calendar/calendar"
+import Calendar from "./components/index/calendar"
 import days from "./data.json";
 import parseHTML from "./helpers/parse-html";
 
