@@ -12,7 +12,7 @@ $size_scale_3_max: 40px
 $size_scale_4_max: 80px
 
 @function strip-unit($value)
-  @return $value / ($value * 0 + 1)
+  @return calc($value / ($value * 0 + 1px))
 
 =fluid-scale($properties, $min-vw, $max-vw, $min-value, $max-value)
   @each $property in $properties
