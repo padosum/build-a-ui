@@ -1,13 +1,15 @@
-@import "../../styles/settings.colour.scss";
-@import "../../styles/tools.respond_to.sass";
-@import "../../styles/tools.fluid_scale.sass";
+@import '../../styles/settings.colour.scss';
+@import '../../styles/tools.respond_to.sass';
+@import '../../styles/tools.fluid_scale.sass';
 
 .container {
   display: grid;
 }
 
 .complete {
-  color: hsl(140, 80%, 40%);
+  color: #14b749;
+  padding-left: 8px;
+  background: url(../../images/tick.svg) 0 50% no-repeat;
 }
 
 .intro {
