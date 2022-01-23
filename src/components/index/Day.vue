@@ -1,6 +1,6 @@
 <template>
     <template v-if="isComplete">
-        <a :href="date" class="day">
+        <a :href="`/ui-${date}`" class="day">
             {{ date }}
             <div class="label" :style="{ backgroundColor: color }">
                 {{ label }}
@@ -8,7 +8,7 @@
         </a>
     </template>
     <template v-else>
-        <div :class="isPlaceholder ? `day` : `placeholder day`">
+        <div :class="isPlaceholder ? `day placeholder` : `day`">
             {{ date }}
         </div>
     </template>

@@ -1,3 +1,7 @@
-@import "settings.colour";
+@import 'settings.colour';
 
-@import "base.typography.scss";
+@import 'base.typography.scss';
+
+.header-anchor {
+  display: none;
+}

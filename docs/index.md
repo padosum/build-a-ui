@@ -1,11 +1,13 @@
+<style lang="scss" scoped>
+@import "../src/components/index/layout.scss"
+</style>
+
 <script setup>
 import Calendar from "../src/components/index/Calendar.vue"
-
-import LayoutStyles from "../src/components/index/layout.scss"
-
 import Logo from "../src/images/logo.svg"
-
 </script>
+<link href="http://cdn.jsdelivr.net/gh/sunn-us/SUIT/fonts/static/woff2/SUIT.css" rel="stylesheet">
+
 <div class="container">
   <div class="intro">
     <img
@@ -17,7 +19,7 @@ import Logo from "../src/images/logo.svg"
 
 # Build a UI
 I have to
-- build a UI...
+- <span class="complete">build a UI...</span>
 - build a UI...
 - build a UI...
 - build a UI...

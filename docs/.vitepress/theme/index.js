@@ -1,5 +1,7 @@
-import DefaultTheme from 'vitepress/theme'
 import Layout from './Layout.vue'
+
+import "../../../src/styles/normalize.css"
+import "../../../src/styles/style.scss"
 
 export default {
   Layout,

@@ -1,48 +1,73 @@
+@import '../../styles/_tools.respond_to.sass';
+
 .calendar {
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  @include respond-to(0, 1099px) {
+    grid-template-rows: 50px repeat(5, 14.3vw);
+  }
+  @include respond-to(1100px, 0) {
+    grid-template-rows: 50px repeat(5, 1fr);
+    min-height: 100vh;
+  }
 }
 
 .h {
-    text-align: right;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-    font-size: 13px;
-    font-weight: 500;
-    align-self: end;
-    padding: 0 10px 10px 10px;
+  text-align: right;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 13px;
+  align-self: end;
+  padding: 0 10px 10px 10px;
 }
 
 .day {
-    text-align: right;
-    padding: 10px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-    color: rgba(0,0,0,0.4);
-    background: #fcfcfc;
-    position: relative;
+  text-align: right;
+  padding: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  color: rgba(0, 0, 0, 0.4);
+  background: #fcfcfc;
+  position: relative;
 }
 
 .label {
-    text-align: left;
-    font-size: 13px;
-    padding: 3px;
-    font-weight: 500;
+  text-align: left;
+  font-size: 13px;
+  padding: 3px;
+  border-radius: 3px;
+  color: #fff;
+  margin-top: 5px;
+  transition: transform 0.15s ease;
+  @include respond-to(small-down) {
+    width: 6px;
+    height: 6px;
+    overflow: hidden;
+    text-indent: -9999px;
     border-radius: 3px;
-    color: #fff;
-    margin-top: 5px;
-    transition: transform 0.15s ease;
+    padding: 0;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+  }
 }
 
 a.day {
-    color: #000;
-    text-decoration: none;
-    background: #fff;
-    transition: all 0.15s ease;
-}
-  
-a.day:hover {
-    background-color: #D9E9Ff;
+  color: #000;
+  text-decoration: none;
+  background: #fff;
+  transition: all 0.15s ease;
+  &:hover {
+    background: #d9e9ff;
+    .label {
+      transform: scale(1.1);
+    }
+  }
 }
 
-a.day:hover .label {
-    transform: scale(1.1);
+.day:not(:nth-child(7n)) {
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.placeholder {
+  background: rgba(247, 247, 247);
+  color: rgba(0, 0, 0, 0.1);
 }
